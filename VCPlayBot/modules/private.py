@@ -47,25 +47,25 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ🤩", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ How to use Me", callback_data="cbhowtouse")
+                        "Hᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ🤔", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", callback_data="cbcmds"
+                         "ᴄᴏᴍᴍᴀɴᴅs📝", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "Dᴏɴᴀᴛᴇ💲", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Sᴜᴘᴘᴏʀᴛ🧞", url=f"https://t.me/Mastro_support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "Uᴘᴅᴀᴛᴇs🦸", url=f"https://t.me/Mastro_updates")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ🧚", url="https://t.me/Athena_probot"
                     )
                 ]
             ]
@@ -85,10 +85,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Sᴜᴘᴘᴏʀᴛ🧞", url=f"https://t.me/Mastro_support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Uᴘᴅᴀᴛᴇs🦸", url=f"https://t.me/Mastro_Updates"
                     )
                 ]
             ]
@@ -126,28 +126,28 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Basic Cmd", callback_data="cbbasic"
+                        "ʙᴀsɪᴄ ᴄᴏᴍᴅ🌈", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "📕 Advanced Cmd", callback_data="cbadvanced"
+                        "ᴀᴅᴠᴀɴᴄᴇᴅ ᴄᴏᴍᴅ🕵️", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📘 Admin Cmd", callback_data="cbadmin"
+                        "ᴀᴅᴍɪɴ ᴄᴏᴍᴅ👨‍💻", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "📗 Sudo Cmd", callback_data="cbsudo"
+                        "Sᴜᴅᴏ ᴄᴏᴍᴅ🤓", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📙 Owner Cmd", callback_data="cbowner"
+                        "Oᴡɴᴇʀ ᴄᴏᴍᴅ😎", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📔 Fun Cmd", callback_data="cbfun"
+                        "Fᴜɴ ᴄᴏᴍᴅ😜", callback_data="cbfun"
                     )
                 ]
             ]
